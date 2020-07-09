@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\Tests\\Tests.csproj": {}
+    "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\Project\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\CalendarApp\\CalendarApp.csproj": {
+    "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\Project\\CalendarApp\\CalendarApp.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\CalendarApp\\CalendarApp.csproj",
+        "projectUniqueName": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\Project\\CalendarApp\\CalendarApp.csproj",
         "projectName": "CalendarApp",
-        "projectPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\CalendarApp\\CalendarApp.csproj"
+        "projectPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\Project\\CalendarApp\\CalendarApp.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\Tests\\Tests.csproj": {
+    "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\Project\\Tests\\Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\Tests\\Tests.csproj",
+        "projectUniqueName": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\Project\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\Tests\\Tests.csproj",
+        "projectPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\Project\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\mpsan\\.nuget\\packages\\",
-        "outputPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\Tests\\obj\\",
+        "outputPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\Project\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mpsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,8 +37,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\CalendarApp\\CalendarApp.csproj": {
-                "projectPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\CalendarApp\\CalendarApp.csproj"
+              "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\Project\\CalendarApp\\CalendarApp.csproj": {
+                "projectPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\Project\\CalendarApp\\CalendarApp.csproj"
               }
             }
           }

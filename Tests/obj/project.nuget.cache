@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8fexDbcfcEloQ8JeAd1rHurXFHPoTs2481BU3ZK4cYol4iZNKwy0Y03r8OggeIZFdQcu1s26flgYEkRbuWLqNA==",
+  "dgSpecHash": "F/PjNzQBSW+t5x81F/VuZEYpdmFcoEFXBCNuU8LnL0ljOFbta/oG81N+54k0sE4QiFC3E+xwZqzlVGOEZQ6sBg==",
   "success": true,
-  "projectFilePath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\Tests\\Tests.csproj",
+  "projectFilePath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\Project\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mpsan\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\mpsan\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

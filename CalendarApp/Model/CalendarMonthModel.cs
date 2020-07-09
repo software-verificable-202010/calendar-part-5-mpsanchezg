@@ -50,6 +50,28 @@ namespace CalendarApp.Model
 
 		#endregion
 
+		#region Public Methods
+
+		public override bool Equals(object obj)
+		{
+			return Equals(obj as CalendarMonthModel);
+		}
+
+		public override int GetHashCode()
+		{
+			return 0;
+		}
+
+		public bool Equals(CalendarMonthModel calendarMonth)
+		{
+			if (calendarMonth == null)
+			{
+				return false;
+			}
+			return MonthNumber == calendarMonth.MonthNumber && YearOfMonth == calendarMonth.YearOfMonth;
+		}
+		#endregion
+
 		#region Private Methods
 
 		private List<CalendarDayModel> SetDaysOfTheMonth(int month, int year)
@@ -92,26 +114,6 @@ namespace CalendarApp.Model
 
 		#endregion
 
-		#region Public Methods
 		
-		public override bool Equals(object obj)
-		{
-			return Equals(obj as CalendarMonthModel);
-		}
-
-		public override int GetHashCode()
-		{
-			return 0;
-		}
-
-		public bool Equals(CalendarMonthModel calendarMonth)
-		{
-			if (calendarMonth == null)
-			{
-				return false;
-			}
-			return MonthNumber == calendarMonth.MonthNumber && YearOfMonth == calendarMonth.YearOfMonth;
-		}
-		#endregion
 	}
 }
