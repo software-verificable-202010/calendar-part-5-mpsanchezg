@@ -1,0 +1,27 @@
+﻿<Window x:Class="CalendarApp.View.CalendarView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CalendarApp.View"
+             xmlns:view="clr-namespace:CalendarApp.View"
+             mc:Ignorable="d" 
+             Title="Calendario"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Mes">
+                <view:CalendarMonthView/>
+            </TabItem>
+            <TabItem Header="Semana">
+                <view:CalendarWeekView/>
+            </TabItem>
+            <TabItem Header="Crear Evento">
+                <view:CreateEventView/>
+            </TabItem>
+            <TabItem Header="Lista de Eventos">
+                <view:EventsListView/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

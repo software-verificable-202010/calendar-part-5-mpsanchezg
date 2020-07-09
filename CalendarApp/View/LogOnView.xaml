@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="CalendarApp.View.LogOnView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CalendarApp.View"
+             xmlns:viewModel="clr-namespace:CalendarApp.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.DataContext>
+        <viewModel:UserManagerViewModel/>
+    </UserControl.DataContext>
+    <Grid>
+        <Grid x:Name="grid1" VerticalAlignment="Top" Margin="65,20,0,0" HorizontalAlignment="Left" Height="369" Width="660" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Label VerticalAlignment="Center" Grid.Row="0" Margin="205,215,0,209.6" HorizontalAlignment="Left" Grid.Column="0" Content="Nombre de Usuario" FontFamily="Microsoft YaHei Light" FontSize="14"/>
+            <TextBox x:Name="UserNameTextBox" Text="{Binding LogOnUserName}"  Width="120" VerticalAlignment="Center" Grid.Row="0" Margin="355,215,0,211.6" Height="23" HorizontalAlignment="Left" FontFamily="Microsoft YaHei Light"></TextBox>
+            <Button 
+                Command ="{Binding LogOnCommand}"
+                Content="   Login   " 
+                Margin="315,295,357,123.6" FontFamily="Microsoft YaHei UI" FontSize="20" 
+                Background="#FF007889" BorderBrush="#FF014B5D" Foreground="White" RenderTransformOrigin="0.707,0.5"
+            />
+        </Grid>
+        <Label Content="Best Calendario Ever" FontFamily="Microsoft YaHei" FontSize="48" Margin="190,60,40,229.6"></Label>
+        
+    </Grid>
+</UserControl>
